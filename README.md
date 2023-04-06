@@ -12,8 +12,7 @@ The backend is written in Python flask with `/chat` and `/` routes to process us
 
 ## Installation
 
-1. Run `pip install -r requirements.txt` to install all necessary dependencies.
-2. Replace the openai_api with your OpenAI API key inside of `app.py` file.
-3. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project. 
-
-This project will be dockerized in the future.
+1. Run `sudo git clone (link)` to clone this repository.
+2. In the directory for this repository, run `pip install -r requirements.txt` to install all necessary dependencies.
+3. Replace the openai_api with your OpenAI API key inside of `app.py` file.
+4. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project.
