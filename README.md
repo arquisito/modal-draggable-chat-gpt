@@ -22,3 +22,5 @@ You can also use the original installation instructions, if you want:
 1. Run `pip install -r requirements.txt` to install all necessary dependencies.
 2. Replace the openai_api with your OpenAI API key inside of app.py file.
 3. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project.
+
+You can access the app using your IP address at port 5000 after running it.
