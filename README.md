@@ -16,7 +16,9 @@ The backend is written in Python flask with `/chat` and `/` routes to process us
 2. In the directory for this repository, run `pip install -r requirements.txt` to install all necessary dependencies.
 3. Replace the openai_api with your OpenAI API key inside of `app.py` file.
 4. Run `docker-compose up` from the directory for this repository.
+
 You can also use the original installation instructions, if you want:
+
 1. Run `pip install -r requirements.txt` to install all necessary dependencies.
 2. Replace the openai_api with your OpenAI API key inside of app.py file.
 3. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project.
