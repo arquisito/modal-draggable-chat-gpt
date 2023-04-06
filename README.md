@@ -13,11 +13,6 @@ The backend is written in Python flask with `/chat` and `/` routes to process us
 ## Installation
 
 1. Run `sudo git clone https://github.com/arquisito/modal-draggable-chat-gpt` in the home directory to clone this repository.
-2. Install pip, ___, and ____ if you don't already have them installed (skip if you do):
-For pip: `sudo apt install python3-pip` NOTE: If you encounter an error saying there is no installation candidate, run `sudo apt-get update`, then try again.
-For docker: 
-
-
-In the directory for this repository, run `pip install -r requirements.txt` to install all necessary dependencies.
+2. In the directory for this repository, run `pip install -r requirements.txt` to install all necessary dependencies.
 3. Replace the openai_api with your OpenAI API key inside of `app.py` file.
 4. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project.
